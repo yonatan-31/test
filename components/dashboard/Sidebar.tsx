@@ -16,8 +16,6 @@ export default function Sidebar({ isOpen }: SidebarProps) {
   
   const navItems = [
     { label: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
-    { label: "My Course", href: "/dashboard/course", icon: BookOpen },
-    { label: "Resources", href: "/dashboard/resources", icon:  Home }, // Placeholder icon
     { label: "Profile", href: "/profile", icon: User },
     // Settings can be secondary
   ];
